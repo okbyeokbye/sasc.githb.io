@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #1C1A1A;
+}
+
+.background-image1{
+	padding-top: 250px;
+	float: left;
+	
+}
+
+.background-image2{
+	float: right;
+}
+main{
+	float: right;
+    display: grid;
+    grid-template-columns:800px 800px;
+
+}
+ .nav{
+background: #1C1A1A;
+height:80px;
+width:100%;
+}
