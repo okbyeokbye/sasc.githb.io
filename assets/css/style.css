@@ -1596,10 +1596,17 @@ body.has-loading-screen.loading-done:after {
     padding-bottom: 2rem;
     padding-top: 2rem;
     transition: .3s ease;
-   
+    background-color:#1C1A1A;
+    overflow: hidden;
+     padding: 14px 16px;
+
 }
 
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 .navbar.in {
     padding-bottom: 1rem;
