@@ -14,14 +14,17 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+  
 	<title>SokraAcademy</title>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
-</head>
+<!-- class="has-loading-screen"
+ --></head>
 <body data-spy="scroll" data-target=".navbar" class="has-loading-screen">
-<!--     <lottie-player src="<https://assets8.lottiefiles.com/packages/lf20_5pXvNC.json>" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop controls autoplay></lottie-player>
- -->
-    <div class="ts-page-wrapper" id="page-top">
+         <lottie-player id="loading" src="https://raw.githubusercontent.com/okbyeokbye/dfkvdkljvdklf/master/animation.json"  background="transparent" speed="3"  style="width: 300px; padding-top: 300px" loop centre controls autoplay>
+        
+    </lottie-player>
+   
+     <div class="ts-page-wrapper" id="page-top">
         <!--***********HERO***********************************************************************************-->
         <header id="ts-hero" class=" ts-separate-bg-element">
             <!--NAVIGATION ******************************************************************************************-->
@@ -557,7 +560,24 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 </script>
+<script>
+        // $(document).ready(function(){
+            //  $('div#loading').removeAttr('id');
+        // });
+        var preloader = document.getElementById("loading");
+        window.addEventListener('load', function(){
+        //  preloader.style.display = 'none';
+        //  })
+                loading.style.height="100px";
+                loading.style.width="100px";
+                loading.style.borderRadius="50%";
+                loading.style.visibility="hidden";
 
+
+        // function myFunction(){
+        //  preloader.style.display = 'none';
+        });
+    </script>
 <script src="assets/js/custom.hero.js"></script>
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
@@ -571,8 +591,7 @@ function closeForm() {
     <script src="assets/js/jquery.validate.min.js"></script>
     <script src="assets/js/jquery-validate.bootstrap-tooltip.min.js"></script>
     <script src="assets/js/custom.js"></script>
-<!--     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
- --> <!-- <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_Gh0AU0.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player>
+
 
 </body>
 </html>
