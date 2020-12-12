@@ -1540,14 +1540,12 @@ ul.ts-list-divided li:last-child {
     width: 100%;
     top:0;
     left:35%;
-/*    transform: translate(-50%,-50%);
-*/  transform: scale(2);
+    transform: scale(2);
     z-index:9999;
     align-items: center;
     opacity: 1;
     margin: auto;
-/*    transition: 0.5s ease;
-*/
+
 
     /*url('http://garudapr.in/wp-content/uploads/2017/12/loader.gif')
      no-repeat center center;   
