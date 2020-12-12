@@ -1541,7 +1541,7 @@ ul.ts-list-divided li:last-child {
     top:0;
     left:35%;
 /*    transform: translate(-50%,-50%);
-*/  transform: scale(1);
+*/  transform: scale(2);
     z-index:9999;
     align-items: center;
     opacity: 1;
