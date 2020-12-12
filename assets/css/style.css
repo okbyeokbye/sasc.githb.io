@@ -1536,16 +1536,16 @@ ul.ts-list-divided li:last-child {
 
 #loading{
     position: fixed;
-    height:1500px;
-    width: 1500px;
-/*    background: #1C1A1A;
-*/    top:50%;
+    height:100%;
+    width: 100%;
+    top:50%;
     left:50%;
     transform: translate(-50%,-50%);
     z-index:9999;
     align-items: center;
     opacity: 1;
     margin: auto;
+    transition: 1s ease;
 
 
     /*url('http://garudapr.in/wp-content/uploads/2017/12/loader.gif')
