@@ -1539,7 +1539,7 @@ ul.ts-list-divided li:last-child {
     height:100%;
     width: 100%;
     top:0;
-    left:35%;
+    left:50%;
     transform: scale(2);
     z-index:9999;
     align-items: center;
