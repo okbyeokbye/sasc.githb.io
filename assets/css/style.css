@@ -1561,7 +1561,7 @@ body.has-loading-screen:before {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 999999;
+    z-index: 9999;
     transition: 1.5s ease;
     opacity: 1;
     align-items: center;
