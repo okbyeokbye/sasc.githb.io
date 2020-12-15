@@ -1534,7 +1534,7 @@ ul.ts-list-divided li:last-child {
   -- Loading Screen
 -------------------------------------------*/
 
-#loading{
+/*#loading{
     position: fixed;
     height:100%;
     width: 100%;
@@ -1551,8 +1551,8 @@ ul.ts-list-divided li:last-child {
 
     /*url('http://garudapr.in/wp-content/uploads/2017/12/loader.gif')
      no-repeat center center;   
-    z-index: 99999;*/
-}
+    z-index: 99999;
+}*/
 body.has-loading-screen:before {
     background-color: #000;
     content: "";
@@ -1568,8 +1568,8 @@ body.has-loading-screen:before {
 }
 
 body.has-loading-screen:after {
-/*    content: url('https://raw.githubusercontent.com/okbyeokbye/dfkvdkljvdklf/master/animation.json')
-*/  height: 2.5rem;
+     content: url("../../assets/img/loading.svg");
+    height: 2.5rem;
     width: 2.5rem;
     position: fixed;
     margin: auto;
