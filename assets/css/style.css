@@ -1695,7 +1695,91 @@ body.has-loading-screen.loading-done:after {
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+/*-------------------------------------------
+  -- privacypolicy
+-------------------------------------------*/
 
+
+
+#wrapper
+    {
+        background: #FFF;
+    }
+
+
+    #header-wrapper
+    {
+        background: #333333;
+    }
+
+    #header
+    {
+        position: relative;
+        padding: 3em 0em;
+    }
+
+        #logo
+    {
+        position: absolute;
+        top: 1em;
+        left: 0;
+    }
+    
+    #logo h1
+    {
+        color: #FFF;
+    }
+    
+    #logo a
+    {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #FFF;
+    }
+
+    #menu
+    {
+        position: absolute;
+        top: 2em;
+        right: 0;
+    }
+    
+    #menu ul
+    {
+        display: inline-block;
+    }
+    
+    #menu li
+    {
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    
+    #menu li a, #menu li span
+    {
+        padding: 1em 1.5em;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        color: #FFF;
+    }
+    
+    #menu li:hover a, #menu li.active a, #menu li.active span
+    {
+        color: #FFF;
+    }
+    
+    #menu .current_page_item a
+    {
+        background: #009E2D;
+        color: #FFF;
+    }
+    
+    #menu .icon
+    {
+    }
 /*-------------------------------------------
   -- Navbar
 -------------------------------------------*/
@@ -1729,7 +1813,7 @@ body.has-loading-screen.loading-done:after {
 
 .navbar .ts-background {
     transition: 1s ease;
-    background-color: ##1C1A1A;
+    background-color: #1C1A1A;
 }
 
 [class*="navbar-expand"] .navbar-nav .nav-link {
